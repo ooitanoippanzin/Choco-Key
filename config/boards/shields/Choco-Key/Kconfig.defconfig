@@ -1,7 +1,7 @@
-if SHIELD_MONA2_R
+if SHIELD_CHOCO-KEY_R
 
 config ZMK_KEYBOARD_NAME
-    default "moNa2_R"
+    default "Choco-Key_R"
 
 config ZMK_SPLIT
     default y
@@ -14,7 +14,7 @@ endif
 if SHIELD_MONA2_L
 
 config ZMK_KEYBOARD_NAME
-    default "moNa2_L"
+    default "Choco-Key_L"
 
 config ZMK_SPLIT
     default y

@@ -25,6 +25,18 @@
         wait-ms = <5>;
         tap-ms = <5>;
     };
+
+    arrows {
+        layers = <2>;
+        bindings =
+            <&kp A>,
+            <&kp B>,
+            <&kp C>,
+            <&kp D>;
+        tick = <10>;
+        wait-ms = <5>;
+        tap-ms = <5>;
+    };
 };
 
 

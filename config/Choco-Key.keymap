@@ -5,8 +5,6 @@
 #include <behaviors/rgbled_widget.dtsi>
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
-#define MOUSE 5
-#define SCROLL 6
 
 &mt {
     flavor = "balanced";
@@ -14,6 +12,9 @@
 };
 
 &trackball {
+    automouse-layer = <4>;
+    scroll-layers = <5>;
+
        arrows {
            layers = <3>;
            bindings =

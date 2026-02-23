@@ -170,7 +170,7 @@
             sensor-bindings = <&scroll_up_down>, <&scroll_left_right>;
         };
 
-        layer_7 {
+        layer_8 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans

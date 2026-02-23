@@ -25,6 +25,7 @@
         wait-ms = <5>;
         tap-ms = <5>;
     };
+
     arrows_2 {
         layers = <2>;
         bindings =

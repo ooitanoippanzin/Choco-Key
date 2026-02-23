@@ -14,7 +14,6 @@
 };
 
 &trackball {
-    arrows {
     arrows_3 {
         layers = <3>;
         bindings =
@@ -26,8 +25,6 @@
         wait-ms = <5>;
         tap-ms = <5>;
     };
-
-    arrows {
     arrows_2 {
         layers = <2>;
         bindings =

@@ -14,8 +14,8 @@
 };
 
 &trackball {
-    gesture_7 {
-        layers = <7>;
+    gesture_1 {
+        layers = <1>;
         bindings =
             <&kp A>,
             <&kp B>,
@@ -26,8 +26,8 @@
         tap-ms = <5>;
     };
 
-    gesture_8 {
-        layers = <8>;
+    gesture_2 {
+        layers = <2>;
         bindings =
             <&kp A>,
             <&kp B>,
@@ -149,28 +149,6 @@
         };
 
         SCROLL {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans                  &trans  &trans  &trans    &trans  &trans                          &trans
-            >;
-
-            sensor-bindings = <&scroll_up_down>, <&scroll_left_right>;
-        };
-
-        layer_7 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans                  &trans  &trans  &trans    &trans  &trans                          &trans
-            >;
-
-            sensor-bindings = <&scroll_up_down>, <&scroll_left_right>;
-        };
-
-        layer_8 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans

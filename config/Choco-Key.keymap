@@ -155,6 +155,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans                  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
+
             sensor-bindings = <&scroll_up_down>, <&scroll_left_right>;
         };
 
